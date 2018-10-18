@@ -1,0 +1,55 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 18/10/2018 05:17
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("../fonts/Flaticon/Flaticon.eot");
+  src: url("../fonts/Flaticon/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Flaticon/Flaticon.woff") format("woff"),
+       url("../fonts/Flaticon/Flaticon.ttf") format("truetype"),
+       url("../fonts/Flaticon/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("../fonts/Flaticon/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fa:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-man:before { content: "\f100"; }
+.flaticon-search:before { content: "\f101"; }
+.flaticon-facebook:before { content: "\f102"; color: #3c5a98}
+.flaticon-twitter:before { content: "\f103"; color: #00aced}
+.flaticon-pinterest:before { content: "\f104"; color: #cb2027}
+.flaticon-google-plus:before { content: "\f105"; color: #d14836}
+.flaticon-calendar:before { content: "\f106"; }
+.flaticon-comment:before { content: "\f107"; }
+
+    $font-Flaticon-man: "\f100";
+    $font-Flaticon-search: "\f101";
+    $font-Flaticon-facebook: "\f102";
+    $font-Flaticon-twitter: "\f103";
+    $font-Flaticon-pinterest: "\f104";
+    $font-Flaticon-google-plus: "\f105";
+    $font-Flaticon-calendar: "\f106";
+    $font-Flaticon-comment: "\f107";

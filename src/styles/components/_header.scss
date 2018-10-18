@@ -1,0 +1,83 @@
+/*header*/
+$main-navbar-height: 64px;
+
+.main-nav {
+  height: $main-navbar-height;
+  padding: 0;
+  @include media-breakpoint-down(xs) {
+      height: auto;
+      padding: 20px 0;
+  }
+}
+
+.main-nav__brand {
+  font-family: Righteous;
+  font-size: 22px;
+  a {
+    text-decoration: none;
+  }
+}
+
+.share-btn {
+  width: 87px;
+  font-family: Righteous;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+}
+
+.search-btn, .signin-btn {
+  width: 60px;
+}
+
+// remove caret
+.dropdown-toggle::after{
+    display: none;
+}
+
+// to not overlap shadows in the aside-nav
+.aside-nav__item:nth-child(3) {
+  z-index: 1;
+}
+.aside-nav__item:nth-child(2) {
+  z-index: 2;
+}
+.aside-nav__item:nth-child(1) {
+  z-index: 3;
+}
+
+.aside-nav__item {
+  height: $main-navbar-height;
+  border-right: 1px $dark solid;
+  box-shadow: 2px -1px 3px $black;
+  a {
+    color: $light;
+  }
+  .dropdown-menu {
+    font-family: Righteous;
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+}
+
+.aside-nav__item:hover .nav-link{
+  color: $white;
+}
+
+
+.hidden-nav {
+  a {
+    padding-left: 14px;
+  }
+
+  .fa {
+    font-size: 18px;
+    margin-right: 26px;
+
+  }
+  .dropdown-divider {
+    width: 80%;
+    margin: auto;
+  }
+}

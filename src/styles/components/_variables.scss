@@ -1,0 +1,30 @@
+/*variables*/
+
+/*colors*/
+$white: #fff;
+$black: #000;
+$blue: #41e9ff;
+$dark: #242424;
+$light: #9d9d9d;
+
+
+$theme-colors: (
+  "blue": $blue,
+  "dark": $dark,
+  "light": $light
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 600px,
+  md: 800px,
+  lg: 1000px,
+  xl: 1470px,
+);
+
+$container-max-widths: (
+        sm: 540px,
+        md: 720px,
+        lg: 960px,
+        xl: 1470px,
+);
